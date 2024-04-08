@@ -326,7 +326,7 @@ const DownloadNowSection=()=>{
                 <button className='price-card-btn-dark'>Download Now for Smarter Recruitment</button>
             </div>
             <div className='download-section-poster-container'>
-                <img className='download-section-poster' src={"/static/images/poster.png"}></img>
+                <img className='download-section-poster' src={"/poster.png"}></img>
             </div>
         </div>
     )
