@@ -11,46 +11,60 @@
     right: -0;
 }
 
-@media only screen and (max-device-width:768px){
-    .section-top-background{
-        width: 195px;
-        bottom: 33%;
+@media only screen and (max-device-width:768px) {
+    .section-top-background {
+        width: 100%;
+        position: relative;
     }
-    .top-section-img{
+
+    .brands-section-logos {
+        display: flex;
+        flex-direction: column !important;
+        gap: 36px !important;
+    }
+
+    .top-section-img {
         width: 100% !important;
     }
-    .top-section-img-btn{
+
+    .top-section-img-btn {
         width: 30% !important;
         left: 25% !important;
     }
 
-    .info-section-card-holder{
+    .info-section-card-holder {
         justify-content: center;
     }
-    .info-section-highlight{
+
+    .info-section-highlight {
         max-width: 100% !important;
         text-align: center !important;
         margin-bottom: 24px;
     }
-    .download-section-poster{
+
+    .download-section-poster {
         width: 83vw !important;
     }
+
     /* .download-section-poster{
         width: 240px;
         flex-direction: column-reverse;
     } */
-    .download-section-container{
-        padding: 16px 12px ;
+    .download-section-container {
+        padding: 16px 12px;
         flex-direction: column-reverse !important;
     }
+
     .right-line {
         border-bottom: 1px solid black;
         width: 100%;
         border-right: none !important;
     }
-    .testimonial-card-container{
+
+    .testimonial-card-container {
         flex: 0 0 90% !important;
     }
+
     /* .right-line{
         border-right:none ;
         border-bottom: 1px solid black;
@@ -64,7 +78,7 @@
         display: flex;
         justify-content: center;
     } */
-    
+
 }
 /* .for-employees-card{
     position: relative;
@@ -164,6 +178,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+.brands-section-logos img{
+    height: 56px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 /* Benefits Section Styles */
@@ -727,6 +746,8 @@ color: #6A6A6A;
 .flex-row{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .wrap{
     flex-wrap: wrap;

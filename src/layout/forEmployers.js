@@ -3,7 +3,7 @@ import './foremployers.css';
 import check from '../assets/logos/check.svg'
 import google_logo from '../assets/logos/google.png'
 import amzn_logo from '../assets/logos/amazon.png'
-import microsoft_logo from '../assets/logos/microsoft.png'
+import microsoft_logo from '../assets/logos/MSFT.svg'
 import nokia_logo from '../assets/logos/nokia.png'
 import spotify_logo from '../assets/logos/spotify.png'
 import ico1 from '../assets/logos/ico1.svg'
